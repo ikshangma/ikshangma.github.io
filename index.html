@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esha Rai</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="site-header">
+      <div class="header-inner">
+        <h1 class="site-name">Esha Rai</h1>
+        <nav id="navbar" aria-label="Main navigation">
+          <button
+            class="nav-toggle"
+            id="navToggle"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+          >
+            <span></span><span></span><span></span>
+          </button>
+          <ul class="nav-links" id="navLinks">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#presentations">Presentations</a></li>
+            <li><a href="#supervision">Supervision</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="about" class="about-section">
+      <div class="about-inner">
+        <div class="about-sidebar fade-in">
+          <div class="about-photo">
+            <img
+              src="image.jpg"
+              alt="Esha Rai"
+              onerror="this.parentElement.classList.add('no-photo')"
+            />
+          </div>
+          <div class="about-identity">
+            <a
+              href="https://www.researchgate.net/profile/Esha-Rai"
+              target="_blank"
+              rel="noopener"
+              class="rg-link"
+              aria-label="ResearchGate Profile"
+            >
+              <img src="./assets/rg_icon.svg" alt="" class="rg-icon" />
+              <span class="rg-label">ResearchGate</span>
+            </a>
+            <p class="about-role-title">Lecturer &amp; Head of Department</p>
+            <p class="about-role-dept">Biology and Environmental Science</p>
+            <p class="about-role-inst">
+              Damak Multiple Campus &middot; Jhapa, Nepal
+            </p>
+          </div>
+        </div>
+
+        <div class="about-text fade-in fade-delay">
+          <p class="about-bio" style="text-indent: 110px">
+            I am a Lecturer at Damak Multiple Campus, Nepal, with over 10 years
+            of teaching experience in environmental science. I hold a master’s
+            degree in environmental science <em>with Distinction</em> from
+            Tribhuvan University and currently serve as Head of the Department
+            of Biology and Environmental Science. My research interests include
+            climate adaptation, ecosystem services, urban sprawl, environmental
+            health, water and soil quality, solid waste management, ethnobotany,
+            and community-based conservation. I also work on occupational and
+            environmental safety issues. I apply tools like QGIS, SPSS, and
+            RStudio in spatial and statistical research. Beyond teaching, I am
+            the Treasurer and Member of the Biological Research and Conservation
+            Center (BRCC), promoting biodiversity conservation and environmental
+            awareness.<br />
+            I am preparing to pursue a PhD focused on the synergies and
+            trade-offs between climate adaptation strategies and ecosystem
+            services in the Mai Khola Watershed, Ilam. I have supervised various
+            undergraduate projects and published research on urban sprawl as
+            land use change, solid waste management and pesticide awareness.
+          </p>
+          <!--
+          <p class="about-bookshelf">
+            I like to read sometimes &mdash; here is my
+            <a href="shelf\index.html">bookshelf</a>.
+          </p>
+          -->
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-rule" />
+
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title fade-in">Education</h2>
+        <table class="data-table fade-in">
+          <tbody>
+            <tr>
+              <td class="col-year">2015</td>
+              <td>
+                <strong>M.Sc. Environmental Science</strong>
+                <br />
+                <span class="inst-name"
+                  >Central Department of Environmental Science, Tribhuvan
+                  University</span
+                >
+              </td>
+            </tr>
+            <tr>
+              <td class="col-year">2011</td>
+              <td>
+                <strong>B.Sc. Environmental Science</strong><br />
+                <span class="inst-name"
+                  >Damak Multiple Campus, Tribhuvan University</span
+                >
+              </td>
+            </tr>
+            <tr>
+              <td class="col-year">2008</td>
+              <td>
+                <strong>+2 Level (Intermediate)</strong><br />
+                <span class="inst-name"
+                  >Siddhartha Boarding Higher Secondary School</span
+                >
+              </td>
+            </tr>
+            <tr>
+              <td class="col-year">2006</td>
+              <td>
+                <strong>School Leaving Certificate (SLC)</strong><br />
+                <span class="inst-name"
+                  >Siddhartha Boarding Higher Secondary School</span
+                >
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <hr class="section-rule" />
+
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title fade-in">Experience</h2>
+
+        <div class="exp-item fade-in">
+          <div class="exp-header">
+            <span class="exp-role">Lecturer &amp; Head of Department</span>
+            <span class="exp-date">Current</span>
+          </div>
+          <p class="exp-place">
+            Damak Multiple Campus, Tribhuvan University, Nepal
+          </p>
+          <ul class="plain-list">
+            <li>Bachelor in Environmental Science Program</li>
+            <li>Higher Secondary Science Program</li>
+          </ul>
+        </div>
+
+        <div class="exp-item fade-in">
+          <div class="exp-header">
+            <span class="exp-role">Treasurer</span>
+            <span class="exp-date">May 2025 &ndash; Present</span>
+          </div>
+          <p class="exp-place">
+            Biological Research and Conservation Center (BRCC) &middot; Damak,
+            Koshi Province, Nepal
+          </p>
+          <ul class="plain-list">
+            <li>
+              Non-profit organisation promoting biodiversity conservation and
+              environmental awareness in Jhapa, Nepal
+            </li>
+          </ul>
+        </div>
+
+        <div class="exp-item fade-in">
+          <div class="exp-header">
+            <span class="exp-role">Teacher</span>
+            <span class="exp-date">April 2015 &ndash; June 2016</span>
+          </div>
+          <p class="exp-place">
+            Niharika Higher Secondary School, Kerkha, Nepal
+          </p>
+          <ul class="plain-list">
+            <li>Science and Mathematics, Grades 8&ndash;10</li>
+          </ul>
+        </div>
+
+        <div class="exp-item fade-in">
+          <div class="exp-header">
+            <span class="exp-role">Teacher</span>
+            <span class="exp-date">August 2011 &ndash; September 2012</span>
+          </div>
+          <p class="exp-place">Eastern Star Secondary English School, Damak</p>
+          <ul class="plain-list">
+            <li>Science, Grades 8&ndash;10</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-rule" />
+
+    <section id="publications" class="section">
+      <div class="container">
+        <h2 class="section-title fade-in">Publications</h2>
+
+        <div class="pub-list">
+          <div class="pub-item fade-in">
+            <p class="pub-ref">
+              <span class="pub-authors"
+                >Rai, E., Shrestha, H., &amp; Sharma, B. (2016).</span
+              >
+              <a href="#" target="_blank" rel="noopener"
+                >Land Use Change Detection and Urban Sprawl Analysis of
+                Biratnagar Sub-Metropolitan City.</a
+              >
+              <em>Journal of Environment Science</em>, Volume 2, 205&ndash;213.
+            </p>
+          </div>
+
+          <div class="pub-item fade-in">
+            <p class="pub-ref">
+              <span class="pub-authors"
+                >Shrestha, N., &amp; Rai, E. (2023).</span
+              >
+              <a
+                href="https://doi.org/10.3126/dcj.v11i1.63486"
+                target="_blank"
+                rel="noopener"
+                >Awareness on Pesticide Exposure and Safety Practices at
+                Himalaya Tea Estate.</a
+              >
+              <em>Damak Campus Journal</em>, 11(1), 95&ndash;101.
+              <span class="pub-doi">doi:10.3126/dcj.v11i1.63486</span>
+            </p>
+          </div>
+
+          <div class="pub-item fade-in">
+            <p class="pub-ref">
+              <span class="pub-authors">Rai, E. et al. (2025).</span>
+              <a
+                href="https://doi.org/10.3126/bcj.v8i1.85530"
+                target="_blank"
+                rel="noopener"
+                >Occupational Health Hazard and Safety Practices among Solid
+                Waste Handlers of Damak Municipality.</a
+              >
+              <em>Butwal Campus Journal</em>, 8(1).
+              <span class="pub-doi">doi:10.3126/bcj.v8i1.85530</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-rule" />
+
+    <section id="presentations" class="section">
+      <div class="container">
+        <h2 class="section-title fade-in">
+          Presentations &amp; Professional Activities
+        </h2>
+
+        <table class="data-table fade-in">
+          <tbody>
+            <tr>
+              <td class="col-year">2022</td>
+              <td>
+                Presenter, Science Dialogue on Ethnobotany and Indigenous
+                Knowledge<br />
+                <span class="sub-text">UNESCO (Online)</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="col-year">2024</td>
+              <td>
+                Expert Trainer, Practical Examination of Bachelor&rsquo;s
+                Degree<br />
+                <span class="sub-text"
+                  >Office of the Controller of Examinations (OCE),
+                  Biratnagar</span
+                >
+              </td>
+            </tr>
+            <tr>
+              <td class="col-year">2024</td>
+              <td>
+                Speaker, Climate Change and Sustainable Development Seminar<br />
+                <span class="sub-text"
+                  >Central Campus of Technology, Hattishar, Dharan</span
+                >
+              </td>
+            </tr>
+            <tr>
+              <td class="col-year">2024</td>
+              <td>
+                Citizen Scientist, Water Monitoring Program<br />
+                <span class="sub-text">S4W-Nepal</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="col-year">2024</td>
+              <td>
+                Trainer, Awareness on Solid Waste Management<br />
+                <span class="sub-text"
+                  >Damak Municipality, Department of Environment</span
+                >
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="grants-block fade-in">
+          <h3 class="grants-heading">Grants Received</h3>
+          <ul class="plain-list">
+            <li>
+              Disaster Risk Reduction Research Grant, Central Department of
+              Environmental Science, Tribhuvan University
+              <span class="grant-amount">NPR 25,000</span>
+            </li>
+            <li>
+              Community Work Research Grant, Central Department of Environmental
+              Science, Tribhuvan University
+              <span class="grant-amount">NPR 15,000</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-rule" />
+
+    <section id="supervision" class="section">
+      <div class="container">
+        <h2 class="section-title fade-in">Supervision &amp; Research</h2>
+
+        <div class="research-record fade-in">
+          <div class="research-group">
+            <h3 class="research-group-label">
+              Field Research &amp; Case Studies
+            </h3>
+            <ul class="research-list">
+              <li>
+                Ethnobotanical plants of the Satar Community, Kamal Gaunpalika
+              </li>
+              <li>Drinking water quality analysis, Kirtipur, Kathmandu</li>
+              <li>Altitudinal variation in soil quality, Simaltaar</li>
+              <li>Solid waste management at household level, Kerkha, Jhapa</li>
+              <li>
+                Urban sprawl analysis, Biratnagar
+                <span class="research-note">M.Sc. thesis</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="research-divider"></div>
+
+          <div class="research-group">
+            <h3 class="research-group-label">Supervised Student Research</h3>
+            <ul class="research-list research-list--wide">
+              <li>Comparative study of hospital waste management, Damak</li>
+              <li>
+                Hospital waste generation and management practices, Damak
+                Hospital
+              </li>
+              <li>
+                Energy consumption patterns, Ratuwamai Municipality Ward No. 5,
+                Morang
+              </li>
+              <li>
+                Occupational safety and health hazards among solid waste
+                handlers, Damak
+              </li>
+              <li>Human-elephant conflict, Chulachuli-2, Ilam</li>
+              <li>IPM practices at Himalayan Tea Estate, Damak</li>
+              <li>
+                Ethnomedicinal plant practices of the Santhal Community, Kamal
+                Gaunpalika
+              </li>
+              <li>People&rsquo;s participation in Betani Community Forest</li>
+              <li>Water quality analysis of Ratuwa River</li>
+              <li>Roadside plantation impact along Mahendra Highway</li>
+              <li>Climate change impact on agriculture, Kamalgaunpalika-1</li>
+              <li>Groundwater quality evaluation, Urlabari-1</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-rule" />
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title fade-in">Contact</h2>
+        <div class="contact-block fade-in">
+          <p>
+            <span class="contact-label">Email</span>
+            <a href="mailto:eehsar4@gmail.com">eehsar4@gmail.com</a>
+          </p>
+          <p>
+            <span class="contact-label">Orcid</span>
+            <a href="https://orcid.org/0009-0002-9296-4685">
+              0009-0002-9296-4685</a
+            >
+          </p>
+          <p>
+            <span class="contact-label">ResearchGate</span>
+            <a
+              href="https://www.researchgate.net/profile/Esha-Rai"
+              target="_blank"
+              rel="noopener"
+              >researchgate.net/profile/Esha-Rai</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Esha Rai</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
